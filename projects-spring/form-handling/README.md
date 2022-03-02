@@ -11,9 +11,11 @@ Create and submit a simple form (signup form) in Spring MVC application using Sp
 
 ### Front-End
 - JSP
+- CSS
+
+### Back-End
 - Spring
 - Java
-- CSS
 
 
 
