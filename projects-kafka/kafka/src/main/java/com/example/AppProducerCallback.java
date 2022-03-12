@@ -12,12 +12,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class AppCallback 
+public class AppProducerCallback 
 {
     public static void main( String[] args )
     {
 
-        final Logger LOG = LoggerFactory.getLogger(AppCallback.class);
+        final Logger LOG = LoggerFactory.getLogger(AppProducerCallback.class);
 
         //Create producer properties
         Properties properties = new Properties();

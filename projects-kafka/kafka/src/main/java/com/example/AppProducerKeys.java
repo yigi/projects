@@ -12,12 +12,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class AppKeys 
+public class AppProducerKeys 
 {
     public static void main( String[] args )
     {
 
-        final Logger LOG = LoggerFactory.getLogger(AppKeys.class);
+        final Logger LOG = LoggerFactory.getLogger(AppProducerKeys.class);
 
         //Create producer properties
         Properties properties = new Properties();

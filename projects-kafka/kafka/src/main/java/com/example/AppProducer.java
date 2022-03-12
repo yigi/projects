@@ -11,7 +11,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
  * Hello world!
  *
  */
-public class App 
+public class AppProducer 
 {
     public static void main( String[] args )
     {

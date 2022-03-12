@@ -52,7 +52,5 @@ public class AppConsumer
                 LOG.info("Partition: " + record.partition() + ", Offset: " + record.offset());
             }
         }
-
-        kafkaConsumer.close();
     }
 }
