@@ -1,12 +1,9 @@
-// All controller logic for CRUD operation will stay here
 
 const ToDoModel = require('../model/todo-model');
 
-// Create and save ToDo Task
 exports.create = (req, res) => {
     const REQUEST_BODY = req.body;
 
-    // validate request_body
     if (!REQUEST_BODY) {
         return res.status(400).send({
             message: 'payload can not be empty'
@@ -37,7 +34,7 @@ exports.create = (req, res) => {
         });
 };
 
-// fetch single ToDo Task
+
 exports.findOne = (req, res) => {
     const id = req.params.id;
 
@@ -72,7 +69,6 @@ exports.findOne = (req, res) => {
         });
 };
 
-// fetch all ToDo Task
 exports.findAll = (req, res) => {
     ToDoModel.find()
         .then(task => {
@@ -99,12 +95,10 @@ exports.findAll = (req, res) => {
         });
 };
 
-// Update existing ToDo Task
 exports.update = (req, res) => {
     const id = req.params.id;
     const REQUEST_BODY = req.body;
 
-    // validate reqest
     if (!REQUEST_BODY) {
         return res.status(400).send({
             message: `task content can not be empty`,
@@ -150,7 +144,7 @@ exports.update = (req, res) => {
 
     };
 
-// Delete existing ToDo Task
+
 exports.delete = (req, res) => {
     const id = req.params.id;
 
@@ -181,8 +175,7 @@ exports.delete = (req, res) => {
         });
 };
 
-// Delete all ToDo Task
-exports.deleteAll = (req, res) => {
+exports.deleteAll = (_, res) => {
     ToDoModel.deleteMany()
         .then(() => {
             res.status(200).send({

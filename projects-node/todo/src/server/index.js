@@ -1,6 +1,4 @@
 const express = require('express');
-
-// import DB config
 const DbConnection = require('../database')
 
 const app = express();
@@ -12,7 +10,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
 
-// call imported DB connection here
 DbConnection;
 
 app.get('/', (req, res) => {
