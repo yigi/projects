@@ -1,0 +1,21 @@
+{
+  "name": "todo-backend-service",
+  "version": "1.0.0",
+  "description": "Creating backend service for todo app wit MongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "run-s start-db server",
+    "server": "node src/server",
+    "start-db": "brew services start mongodb-community@4.4",
+    "stop-db": "brew services stop mongodb-community@4.4",
+    "mongo": "mongo"
+  },
+  "author": "yigi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9",
+    "npm-run-all": "^4.1.5"
+  }
+}
