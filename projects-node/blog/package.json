@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "marked": "^4.0.12",
+    "mongoose": "^6.2.9",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js"
+  }
+}
