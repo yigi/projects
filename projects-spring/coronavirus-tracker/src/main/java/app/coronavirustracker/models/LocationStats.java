@@ -1,4 +1,4 @@
-package io.javabrains.coronavirustracker.models;
+package app.coronavirustracker.models;
 
 public class LocationStats {
 

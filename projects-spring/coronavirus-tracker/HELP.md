@@ -1,8 +1,6 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'io.javabrains.coronavirus-tracker' is invalid and this project uses 'io.javabrains.coronavirustracker' instead.
-
 # Getting Started
 
 ### Reference Documentation
