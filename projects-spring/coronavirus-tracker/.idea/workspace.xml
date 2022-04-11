@@ -29,16 +29,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/app/coronavirustracker" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="CoronavirusTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.javabrains.coronavirustracker.CoronavirusTrackerApplication" />
+      <option name="MAIN_CLASS_NAME" value="app.coronavirustracker.CoronavirusTrackerApplication" />
       <module name="coronavirus-tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.javabrains.coronavirustracker.*" />
+          <option name="PATTERN" value="app.coronavirustracker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
